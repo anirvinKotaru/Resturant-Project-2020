@@ -1,20 +1,50 @@
+#bottom{
+  background-color: #d96459;
+  height: 100%;
+}
 
-  #topNav{
-      padding: 5px;
-    }
+body{
+  background-color: #f2e394;
+}
+#topnav{
+     padding: 5px;
+     height: 50px;
+     margin: 0px;
+     background-color: #588c7e;
+  }
 
-  #topNav li{
-        padding-right: 8px;
-        display: inline;
-        float: right;
-        text-decoration: none;
-    }
-
-  #topNav li:hover{
-        background-color: yellow;
-      }
-  #topNave li a{
+  #topnav li{
+      padding-right: 8px;
+      display: inline;
+      float: right;
       text-decoration: none;
-      font-family: monospace;
-      font-size: 20px;
-    }
+  }
+
+#topnav li:hover{
+      opacity: 0.5;
+         }
+#hamBurger {
+  float: left;
+}
+  #topnav li a{
+     text-decoration: none;
+     font-family: monospace;
+     font-size: 20px;
+     color: black;
+  }
+
+  #menuNav{
+    height: 100%;
+    width: 130px;
+    margin: 0px;
+    background-color: #f2ae72;
+   border-right: 2px solid black;
+   float: left;
+   z-index: -999; /*negative z-index pushes an tag/element to the background*/
+  }
+
+#menuNav li{
+  padding-top: 10px;
+  list-style: none;
+  font-family: sans-serif;
+}
